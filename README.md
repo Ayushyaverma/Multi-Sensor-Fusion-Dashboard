@@ -14,10 +14,13 @@ It is a fusion dashboard designed for monitoring operational conditions in real-
 The dashboard serves as a central command interface capable of displaying:
 *   **Real-time Position Tracking:** Live coordinates of personnel and assets (Pathfinders, UAVs, Paramotors) via LoRa communication.
 *   **Live Weather & Forecasting:** Integration with weather APIs to display current conditions and forecasts (24-hour and 3-day).
-*   **Operational Analytics:** Distance calculations from strategic reference points using the Haversine formula.
+*   **Operational Analytics:** Distance calculations from strategic reference points (e.g., Mehra Auditorium) using the Haversine formula.
 *   **Personnel Details:** Quick access to rank, appointment, and equipment details of deployed units.
 
-This project was submitted to the **Indian Army**. For their exceptional work on this project, the students received a **Commendation from the Commandant, MILIT**, along with Letters of Recommendation (LORs).
+**Hardware Implementation:**
+The hardware setup initially utilized **Arduino** microcontrollers, **Radars**, and **NeoBlox Neo 7M** GPS modules. These components were subsequently upgraded and adapted to suit field operational conditions.
+
+This project was submitted to the **Indian Army**. For their exceptional work on this project, the students received a **Commendation from the Commandant, MILIT**, along with Letters of Recommendation (LORs)
 
 ## Team & Credits
 
@@ -29,6 +32,11 @@ This project was submitted to the **Indian Army**. For their exceptional work on
     *   Aditya Vardhan Singh
     *   Pranjeet Sarkar
     *   Aadarsh Sinha
+## Code Structure
+
+*   **`Dashboard.py`**: The main application script that launches the dashboard, manages the layout, and handles real-time data threading from hardware inputs.
+*   **`weatherforcast.py`**: A dedicated module responsible for fetching live weather data from APIs and generating forecast models.
+*   **`distance_calc.py`**: A utility script implementing the Haversine formula to calculate precise distances between coordinates.
 
 ## Technical Stack
 
