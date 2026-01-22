@@ -76,7 +76,7 @@ This project was submitted to the **Indian Army**. For their exceptional work on
 
 3.  **Running the Dashboard:**
     ```bash
-    python cptdash.py
+    python dashboard.py
     ```
     The application will run locally at `http://127.0.0.1:8050/`.
 
