@@ -3,6 +3,10 @@ A fusion dashboard designed for monitoring operational conditions in real-time.
 
 ## Due to the confidential nature of the project only some sreenshots and some logic is shown, For detailes contact the owner.
 
+## Visual Overview
+
+![VCFF Dashboard](https://github.com/Ayushyaverma/Multi-Sensor-Fusion-Dashboard/blob/main/VCFF%20Dashboard.png?raw=true)
+
 It is a fusion dashboard designed for monitoring operational conditions in real-time. Developed as a project undertaken by **Para 23 SF** under the guidance of **MILIT (Military Institute of Technology)**, this system integrates inputs from various sources—including Radars, UAVs, moving targets, and diverse sensors—to provide a comprehensive situational awareness picture.
 
 ## Project Overview
