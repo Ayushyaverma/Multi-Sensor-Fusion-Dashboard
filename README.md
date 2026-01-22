@@ -1,7 +1,7 @@
 # Multi-Sensor-Fusion-Dashboard
 A fusion dashboard designed for monitoring operational conditions in real-time.
 
-## Due to the confidential nature of the project only some sreenshots and some logic is shown, For detailes contact the owner.
+## Due to the confidential nature of the project only some sreenshots and some logic is shown, For details contact the owner.
 
 ## Visual Overview
 
